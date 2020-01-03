@@ -1,14 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras", "Unity.2D.Tilemap.Extras.csproj", "{401B0946-A244-18F4-5EFA-EF3B31726C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Editor", "Unity.2D.Tilemap.Extras.Editor.csproj", "{34981DF1-8641-43EB-99F2-9DD49EEC1D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Tilemap.Extras.Placeholder.EditorTests", "Unity.2D.Tilemap.Extras.Placeholder.EditorTests.csproj", "{7B9B400D-15F0-D5F3-7A80-FBB29352A020}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{401B0946-A244-18F4-5EFA-EF3B31726C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401B0946-A244-18F4-5EFA-EF3B31726C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401B0946-A244-18F4-5EFA-EF3B31726C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401B0946-A244-18F4-5EFA-EF3B31726C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34981DF1-8641-43EB-99F2-9DD49EEC1D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34981DF1-8641-43EB-99F2-9DD49EEC1D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34981DF1-8641-43EB-99F2-9DD49EEC1D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34981DF1-8641-43EB-99F2-9DD49EEC1D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9B400D-15F0-D5F3-7A80-FBB29352A020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9B400D-15F0-D5F3-7A80-FBB29352A020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9B400D-15F0-D5F3-7A80-FBB29352A020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9B400D-15F0-D5F3-7A80-FBB29352A020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
